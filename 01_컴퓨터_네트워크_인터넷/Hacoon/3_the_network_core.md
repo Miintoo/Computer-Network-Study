@@ -1,8 +1,8 @@
-## The Network Core
+## Overview
 
 Mesh of packet switches(routers) and links that interconnects the Internet's end systems.
 
-Router는 작은 스페셜한 컴퓨터라고 생각하면 된다. 
+Router는 작은 스페셜한 컴퓨터라고 생각하면 된다.
 
 그래서 CPU, 메모리 등을 탑재하고 있다.
 
