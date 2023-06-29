@@ -1,8 +1,10 @@
-## The Network Core
+## Overview
 
 Mesh of packet switches(routers) and links that interconnects the Internet's end systems.
 
-Router는 작은 스페셜한 컴퓨터라고 생각하면 된다. 그래서 CPU, 메모리 등을 탑재하고 있다.
+Router는 작은 스페셜한 컴퓨터라고 생각하면 된다.
+
+그래서 CPU, 메모리 등을 탑재하고 있다.
 
 ![1686898337610](image/3_the_network_core/1686898337610.png)
 
@@ -121,14 +123,13 @@ that a user is active only 10 percent of the time.
 - Packet-switching: with 35 users
   - the probability that there are 11 or more simultaneously active users is approximately 0.0004.
 
-They also highlight the crucial difference between the two forms of sharing **a link’s transmission rate among multiple data streams**. 
+They also highlight the crucial difference between the two forms of sharing **a link’s transmission rate among multiple data streams**.
 
 Circuit switching *pre-allocates* use of the transmission link regardless of demand, with allocated but unneeded link time going unused.
 
 Packet switching on the other hand allocates link use *on demand*. Link transmission capacity will be shared on a packet-by-packet basis only among those users who have packets that need to be transmitted over the link.
 
 ### 1.3.3 A Network of Networks
-
 
 |  |  |  |
 | - | - | - |
