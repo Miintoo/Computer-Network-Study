@@ -6,7 +6,7 @@ Here we distribute a large file from a single server to a large number of hosts 
 
 In P2P file distribution, each peer can redistribute any portion of the file it has received to any other peers, thereby assisting the server in the distribution process.
 
-### Scalability of P2P Archtectures
+### Scalability of P2P Architectures
 
 New peers bring new service capacity, and service demands.
 

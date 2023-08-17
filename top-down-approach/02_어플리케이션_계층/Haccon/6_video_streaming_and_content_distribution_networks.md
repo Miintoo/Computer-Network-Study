@@ -2,7 +2,7 @@
 
 ### Definition of Video
 
-A video is a sequence of images, typically being displayed at a constannt rate, for example, at 24 or 30 images per sec.
+A video is a sequence of images, typically being displayed at a constant rate, for example, at 24 or 30 images per sec.
 
 ### Charateristics of video
 
@@ -18,7 +18,8 @@ A video is a sequence of images, typically being displayed at a constannt rate, 
 - The video is simply stored at an HTTP server as an ordinary file with a specific **URL**.
 - When a user wants to see the video, the client establishes a TCP connection with the server and issues an HTTP GET request for that URL.
 - On the client side, the butes are collected in a client application buffer.
-- Once the number of bytes in this buffer exceeds a predetermined threshold, the client application begins playback - specifially, the streaming video application periodically grabs video frames from the client application buffer, decompresses the frames, and displays them on the user's screen. ()
+  - A buffer is a temporarliy space where collect video frames.
+- Once the number of bytes in this buffer exceeds a predetermined threshold, the client application begins playback - specifially, the streaming video application periodically grabs video frames from the client application buffer, decompresses the frames, and displays them on the user's screen.
 
 ![1688168856622](image/6_video_streaming_and_content_distribution_networks/1688168856622.png)
 
@@ -38,5 +39,7 @@ The video is encoded into several different versions, with each version having a
 How to stream content to hundreds of thousands of simultaneous users?
 
 CDNs manages servers in multiple geocraphically distributed locations, store copies of the videos (and other types of Web content, including documents, images, and audio) in its servers, and attempts to direct each user request to a CDN location that will provide the best user experience.
+
+### Cluster
 
 ![1688169428307](image/6_video_streaming_and_content_distribution_networks/1688169428307.png)
